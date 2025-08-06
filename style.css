@@ -1,0 +1,279 @@
+body{
+    transition: 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    padding-top: 15px;
+}
+
+nav{
+    padding-bottom: 10px;
+    display: none;
+}
+
+.nav1{
+    padding-bottom: 15px;
+    background-color: rgb(148, 148, 148);
+    border-radius: 20px;
+    margin-top: -21px;
+    margin-left: -10px;
+    box-shadow: 0 0 100px rgb(26, 25, 25);
+    
+}
+
+
+.slider{
+    padding-top: 20px;
+}
+
+
+.progress{
+    padding-top: 50px;
+    font-family: fantasy;
+}
+
+
+.themebtn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    box-shadow: 0 0 10px gray;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+.prg{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 10px gray;
+    font-size: 20px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+
+.slider{
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.sliderbtn{
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color: blue;
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+
+
+.progress-container {
+width: 70%;
+height: 30px;
+background-color: #555;
+border-radius: 15px;
+margin: 30px auto;
+box-shadow: 0 0 10px violet;
+}
+
+.progress-bar {
+height: 100%;
+width: 0%;
+background-color: rgb(140, 0, 255);
+transition: width 1.5s ease-in-out;
+border-radius: 20px;
+}
+
+.prg:hover {
+background-color: rgb(174, 0, 255);
+}
+
+a{
+    padding: 10px;
+    color: lime;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 10px black;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+
+
+#enemy{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px   red
+}
+
+#start{
+    border-radius: 40px;
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#slider-img{
+    border-radius: 20px;
+    height: 200px; 
+    box-shadow: 0 0 10px gray;
+    width: 300px;
+}
+
+.thumb{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px gray;
+}
+
+.thumb:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+a:hover{
+    box-shadow: 0 0 10px lime;
+    transition: 0.3s ease;
+}
+
+.modal-hidden {
+    display: none;
+
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+#full-image {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputname{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#entername{
+    padding-top: 20px;
+    box-shadow: 0 0 10px gray;
+    padding-bottom: 20px;
+    width: 70%;
+    border-radius: 20px;
+    background-color: gray;
+    color: white;
+    font-size: 25px;    
+    transition: 0.3s ease;
+    margin: auto;
+    display: none;
+
+}
+
+.savename{
+    padding-top: 10px;
+}
+
+#openname{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#openname:hover{
+    background-color: darkgreen;
+    transition: 0.3s ease;
+}
+
+#closename{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#savename{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+li{
+    padding-top: 30px;
+}
+
+
+.nav-hidden {
+    display: block;
+    transition: 1s ease;
+}
+
+
+.hidenav {
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    left: 10px;
+    top: 10px;
+    position: fixed;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+
+#name{
+    border-radius: 5px;
+    border: none;
+    color: black;
+}

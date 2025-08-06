@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="nav1">
+        <h1 id="Welcome">Welcome</h1>
+
+        <nav id="nav">
+        <ul>
+            <li><a href="index.html">1 Страница</a></li>
+            <li><a href="second.html">2 Страница</a></li>
+            <li><a href="third.html">3 Страница</a></li>
+        </ul>
+        </nav>
+    </div>
+    <button onclick="closenav()" class="hidenav">=</button>
+
+    
+    <h1>🎯 Поймай врага!</h1>
+
+    <p id="textt">Поймайте как можно больше врагов за 10 секунд!</p>
+
+    <p>Очки: <span id="score">0</span></p>
+
+    <button onclick="startGame()" id="start">Начать игру</button>
+    
+    <div id="enemy"></div>
+
+
+
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>

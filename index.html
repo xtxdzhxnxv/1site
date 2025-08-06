@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="nav1">
+        <h1 id="Welcome">Welcome</h1>
+
+        <nav id="nav">
+        <ul>
+            <li><a href="index.html">1 Страница</a></li>
+            <li><a href="second.html">2 Страница</a></li>
+            <li><a href="third.html">3 Страница</a></li>
+        </ul>
+        </nav>
+    </div>
+    <button onclick="closenav()" class="hidenav">=</button>
+
+    <div class="slider">
+    <h2>slider</h2>
+
+        <div>
+        <img id="slider-img" src="https://avatars.mds.yandex.net/i?id=8717961441999728cea93cd6dc24a805936e5bbc-4864053-images-thumbs&n=13" alt="car">
+        <h3 id="h3">McLaren P1</h3>
+        </div>
+
+        <button onclick="prev()" id="prev" class="sliderbtn"><</button>
+
+        <button onclick="next()" id="next" class="sliderbtn">></button>
+
+    </div>
+
+
+    <h2>Gallery</h2>
+    <div class="Gallery">
+        <img src="https://avatars.mds.yandex.net/i?id=3358d7e823e3844e221375691da31c6a3176981c-12658900-images-thumbs&n=13" onclick="showImage('https://avatars.mds.yandex.net/i?id=3358d7e823e3844e221375691da31c6a3176981c-12658900-images-thumbs&n=13')" class="thumb">
+        <img src="https://avatars.mds.yandex.net/i?id=4053cd22e0f4ff4940ad17fd16db472dcbce7040-7013451-images-thumbs&n=13" onclick="showImage('https://avatars.mds.yandex.net/i?id=4053cd22e0f4ff4940ad17fd16db472dcbce7040-7013451-images-thumbs&n=13')" class="thumb">
+        <img src="https://avatars.mds.yandex.net/i?id=4df80b3c652ea140e8510a714f24800ddf25868a-4948500-images-thumbs&n=13" onclick="showImage('https://avatars.mds.yandex.net/i?id=4df80b3c652ea140e8510a714f24800ddf25868a-4948500-images-thumbs&n=13')" class="thumb">
+    </div>
+    
+    <div class="modal-hidden" id="modal">
+    <span class="close" onclick="closeImage()">×</span>
+    <img id="full-image" />
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
